@@ -10,8 +10,7 @@ const Home = (props) => {
           img = {item.coverImg}
           title = {item.title}
           text ={item.text}
-
-        
+          openspots={item.openspots}        
         />
     )
  })
